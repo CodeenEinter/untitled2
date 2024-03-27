@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="pojo.empolyee">
+    <select id="employeeByid" parameterType="int" resultType="pojo.empolyee">
+        select * from emploee where id=#{id}
+    </select>
+    <insert id="addEmployee" parameterType="pojo.empolyee">
+        insert into emploee values(#{id},#{name},#{age},#{position})
+    </insert>
+    <update id="updateEmployee" parameterType="pojo.empolyee">
+        update emploee set age=#{age},position=#{position} where id=#{id}
+    </update>
+    <delete id="deleteEmployee" parameterType="int">
+        delete from emploee where id=#{id}
+    </delete>
+
+</mapper>
