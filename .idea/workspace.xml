@@ -4,7 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="acef5393-befc-4acb-873e-c12fb10350e3" name="变更" comment="" />
+    <list default="true" id="acef5393-befc-4acb-873e-c12fb10350e3" name="变更" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spring/Hellospring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/employeeText.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/employeeText.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MyBatisUitles.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MyBatisUitles.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pojo/empolyee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pojo/empolyee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pojo/student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pojo/student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pojo/studentMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pojo/studentMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/employeeText.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/employeeText.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,10 +29,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/main/resources/mapper/student.xml" root0="SKIP_INSPECTION" />
@@ -27,7 +46,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="D:/yiyou/apache-maven-3.9.4" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../apache-maven-3.9.4" />
         <option name="useMavenConfig" value="true" />
         <option name="userSettingsFile" value="D:\yiyou\apache-maven-3.9.4\conf\settings.xml" />
       </MavenGeneralSettings>
@@ -39,9 +58,10 @@
     </option>
   </component>
   <component name="MavenRunner">
-    <option name="jreName" value="1.8" />
+    <option name="jreName" value="17" />
   </component>
   <component name="ProjectId" id="2dPVCdQJR2mFX85DOa3ym2oE8Uq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -50,16 +70,17 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "E:/untitled2",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "项目",
+    "project.structure.last.edited": "SDK",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "MavenSettings",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.archetype.catalogs",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -80,7 +101,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.employeeText.deleteStudent">
+  <component name="RunManager" selected="JUnit.employeeText.text">
     <configuration name="employeeText" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="untitled2" />
       <option name="PACKAGE_NAME" value="" />
@@ -110,16 +131,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="employeeText.findbook" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="untitled2" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="employeeText" />
-      <option name="METHOD_NAME" value="findbook" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="employeeText.findbook1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="untitled2" />
       <option name="PACKAGE_NAME" value="" />
@@ -130,13 +141,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="employeeText.text" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="employeeText" />
+      <option name="METHOD_NAME" value="text" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.employeeText.text" />
         <item itemvalue="JUnit.employeeText.deleteStudent" />
         <item itemvalue="JUnit.employeeText" />
         <item itemvalue="JUnit.employeeText.findStudent" />
         <item itemvalue="JUnit.employeeText.findbook1" />
-        <item itemvalue="JUnit.employeeText.findbook" />
       </list>
     </recent_temporary>
   </component>
@@ -157,6 +178,8 @@
       <workItem from="1711092618611" duration="249000" />
       <workItem from="1711249465580" duration="5458000" />
       <workItem from="1711454170435" duration="2033000" />
+      <workItem from="1712409114158" duration="1489000" />
+      <workItem from="1712410628428" duration="1020000" />
     </task>
     <servers />
   </component>

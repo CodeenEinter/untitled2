@@ -3,9 +3,11 @@ import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 import org.junit.Test;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 import pojo.empolyee;
 import pojo.student;
 import pojo.studentMapper;
+import spring.Hellospring;
 
 import java.io.IOException;
 import java.io.Reader;
@@ -62,49 +64,55 @@ public class employeeText {
         session.close();
     }
     //二级缓存
+//    @Test
+//    public void findbook(){
+//        SqlSession session = MyBatisUitles.getSession();
+//        SqlSession session1 = MyBatisUitles.getSession();
+//        System.out.println(session.selectOne("employeeByid", 1));
+//        session.close();
+//        System.out.println(session1.selectOne("employeeByid", 1));
+//        session1.close();
+//    }
+//    @Test
+//    public void findbook1(){
+//        SqlSession session = MyBatisUitles.getSession();
+//        System.out.println(session.selectOne("employeeByid", 1));
+//        System.out.println(session.selectOne("employeeByid", 1));
+//        session.close();
+//    }
+//    @Test
+//    public void findStudent(){
+//        SqlSession session = null;
+//        try {
+//            session = MyBatisUitles.getSession();
+//            student student = new student();
+//            student.setPosition("rjjishu");
+//            System.out.println(session.selectOne("findStudent",student));
+//        }catch (Exception e){
+//            e.printStackTrace();
+//        }finally {
+//            session.close();
+//
+//        }
+//    }
+//    @Test
+//    public void deleteStudent(){
+//        SqlSession session = null;
+//        try {
+//            session = MyBatisUitles.getSession();
+//            studentMapper mapper = session.getMapper(studentMapper.class);
+//            System.out.println(mapper.deleteStudent(1));
+//        }catch (Exception e){
+//            e.printStackTrace();
+//        }finally {
+//            session.commit();
+//            session.close();
+//        }
+//    }
     @Test
-    public void findbook(){
-        SqlSession session = MyBatisUitles.getSession();
-        SqlSession session1 = MyBatisUitles.getSession();
-        System.out.println(session.selectOne("employeeByid", 1));
-        session.close();
-        System.out.println(session1.selectOne("employeeByid", 1));
-        session1.close();
-    }
-    @Test
-    public void findbook1(){
-        SqlSession session = MyBatisUitles.getSession();
-        System.out.println(session.selectOne("employeeByid", 1));
-        System.out.println(session.selectOne("employeeByid", 1));
-        session.close();
-    }
-    @Test
-    public void findStudent(){
-        SqlSession session = null;
-        try {
-            session = MyBatisUitles.getSession();
-            student student = new student();
-            student.setPosition("rjjishu");
-            System.out.println(session.selectOne("findStudent",student));
-        }catch (Exception e){
-            e.printStackTrace();
-        }finally {
-            session.close();
-
-        }
-    }
-    @Test
-    public void deleteStudent(){
-        SqlSession session = null;
-        try {
-            session = MyBatisUitles.getSession();
-            studentMapper mapper = session.getMapper(studentMapper.class);
-            System.out.println(mapper.deleteStudent(1));
-        }catch (Exception e){
-            e.printStackTrace();
-        }finally {
-            session.commit();
-            session.close();
-        }
+    public  void text(){
+        ClassPathXmlApplicationContext beans = new ClassPathXmlApplicationContext("applicationContext.xml");
+        Hellospring hellospring = (Hellospring)beans.getBean("Hellospring");
+        hellospring.show();
     }
 }
